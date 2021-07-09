@@ -6,7 +6,7 @@
 ![pong2](https://i.ibb.co/kDRBXqs/pong2.png)
 
 ### Introduction
-This is the code repository for a for a multiplayer pong game built using NodeJs, ExpressJs, JavaScript and HTML
+This is the code repository for a for a multiplayer pong game built using NodeJs, ExpressJs, JavaScript and Socket.IO to give it real time capabilities
 The game is played in pairs, once one player joins it waits and automatically detects when a second player 
 joins and assigns one of them as a referee to monitor and relay the scores and the ball position to the server
 

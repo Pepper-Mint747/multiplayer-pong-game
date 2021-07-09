@@ -3,6 +3,7 @@
 #### [Live Site](https://frenetiks-pong-game.herokuapp.com/)
 
 ![pong](https://i.ibb.co/QncFfWB/pong.png)
+![pong2](https://i.ibb.co/kDRBXqs/pong2.png)
 
 ### Introduction
 This is the code repository for a for a multiplayer pong game built using NodeJs, ExpressJs, JavaScript and HTML

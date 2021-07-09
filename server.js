@@ -1,5 +1,6 @@
 const http = require("http");
 const io = require("socket.io");
+require("dotenv").config()
 
 const apiServer = require("./api");
 
@@ -10,10 +11,8 @@ const socketServer = io(httpServer, {
 
 const sockets = require("./sockets");
 
-const PORT = 3000;
-
-httpServer.listen(PORT);
-console.log(`Listening on port ${PORT}...`);
+httpServer.listen(process.env.PORT);
+console.log(`Listening on port ${process.env.PORT}...`);
 
 sockets.listen(socketServer);
 
